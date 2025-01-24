@@ -19,10 +19,10 @@
   <div class="hero-content max-w-4/5 flex flex-col lg:flex-row-reverse lg:justify-between text-neutral-content px-4 lg:px-0 w-full relative z-10 lg:gap-20">
     <!-- Video Column -->
     <div class="w-full lg:w-1/2">
-      <div class="relative w-full rounded shadow-2xl" style="padding-top: 56.25%;"> <!-- Responsive container -->
+      <div class="relative w-full rounded shadow" style="padding-top: 56.25%;"> <!-- Responsive container -->
         <iframe
           class="absolute inset-0 w-full h-full rounded-lg shadow-2xl"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          src="https://www.youtube.com/embed/NpEaa2P7qZI"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

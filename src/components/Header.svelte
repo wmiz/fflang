@@ -26,8 +26,8 @@
         class="menu menu-sm dropdown-content font-heading bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
         <li><a href="/the-class">The Class</a></li>
-        <li><a>The Teacher</a></li>
-        <li><a>Questions</a></li>
+        <li><a href="the-teacher">The Teacher</a></li>
+        <li><a href="questions">Questions</a></li>
       </ul>
     </div>
     <a href="/" class="cursor-pointer">
@@ -37,8 +37,8 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-xl font-accent menu-horizontal px-1">
       <li><a href="the-class" class="text-3xl mt-1">The Class</a></li>
-      <li><a class="text-3xl mt-1">The Teacher</a></li>
-      <li><a class="text-3xl mt-1">Questions</a></li>
+      <li><a href="the-teacher" class="text-3xl mt-1">The Teacher</a></li>
+      <li><a href="questions" class="text-3xl mt-1">Questions</a></li>
     </ul>
   </div>
   <div class="navbar-end">
