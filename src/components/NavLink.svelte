@@ -3,4 +3,4 @@
     export let title = '';
 </script>
 
-<a {href} class="nav-link text-brand-secondary hover:text-brand-primary">{title}</a>
+<a {href} class="">{title}</a>
