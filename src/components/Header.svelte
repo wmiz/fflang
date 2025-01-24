@@ -25,7 +25,7 @@
         tabindex="0"
         class="menu menu-sm dropdown-content font-heading bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
-        <li><a>The Class</a></li>
+        <li><a href="/the-class">The Class</a></li>
         <li><a>The Teacher</a></li>
         <li><a>Questions</a></li>
       </ul>
@@ -36,7 +36,7 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-xl font-accent menu-horizontal px-1">
-      <li><a class="text-3xl mt-1">The Class</a></li>
+      <li><a href="the-class" class="text-3xl mt-1">The Class</a></li>
       <li><a class="text-3xl mt-1">The Teacher</a></li>
       <li><a class="text-3xl mt-1">Questions</a></li>
     </ul>
