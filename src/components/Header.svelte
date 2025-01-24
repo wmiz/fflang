@@ -31,7 +31,7 @@
       </ul>
     </div>
     <a href="/" class="cursor-pointer">
-      <img src={logo} alt="logo" class="h-12 md:h-16" />
+      <img src={logo} alt="logo" class="h-12 md:h-18" />
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
