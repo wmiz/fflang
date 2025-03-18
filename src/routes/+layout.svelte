@@ -4,6 +4,8 @@
   import Footer from "../components/Footer.svelte";
   import { fade } from "svelte/transition";
 
+  import Construction from "../components/HomePage/Construction.svelte";
+
   import { onMount } from "svelte";
   let visible = false;
   onMount(() => {
@@ -16,7 +18,9 @@
 </script>
 
 <div class="font-heading">
-  <Header />
+  <img src="" alt="">
+  <Construction />
+  <!-- <Header />
   {#if visible}
     <div in:fade={{ duration: 125 }}>
       <slot />
@@ -25,5 +29,5 @@
     <div class="h-screen bg-white">
     </div>
   {/if}
-  <Footer />
+  <Footer /> -->
 </div>
