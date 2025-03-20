@@ -20,7 +20,7 @@
         </div>
         <ExpandableColumn paragraphs={column1} header="PROBLEM" />
         <div class="w-1/3 p-8">
-        <img src={door} alt="Door to More Enjoyable Learning" class="w-full h-auto" />
+        <img src="https://placehold.co/400x600" alt="Door to More Enjoyable Learning" class="w-full h-auto" />
         </div>
         <ExpandableColumn paragraphs={column3} header="SOLUTION" />
     </div>

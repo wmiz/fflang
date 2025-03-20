@@ -19,7 +19,7 @@
     {#if paragraphs.length > 1} <!-- Only show button if there are multiple paragraphs -->
       <button
         on:click={() => expanded = !expanded}
-        class="mt-2 text-2xl uppercase italic underline cursor-pointer"
+        class="mt-2 text-xl uppercase cursor-pointer btn p-6 bg-[#16455c] btn-primary w-full rounded-xl"
         aria-expanded={expanded}
       >
         {expanded ? 'Read Less...' : 'Read More...'}

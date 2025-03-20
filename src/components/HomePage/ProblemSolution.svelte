@@ -15,11 +15,11 @@
       <p class="text-2xl mb-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
         tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab
-        alias magni...
+        alias magni…
       </p>
       <p class="text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-        tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab...
+        tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab…
       </p>
     </div>
   </div>
@@ -43,11 +43,11 @@
       <p class="text-2xl mb-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
         tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab
-        alias magni...
+        alias magni…
       </p>
       <p class="text-2xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-        tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab...
+        tenetur ad debitis consequuntur dolorum accusamus laboriosam sequi ab…
       </p>
     </div>
   </div>

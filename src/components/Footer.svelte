@@ -17,8 +17,7 @@
   </nav>
   <nav class="w-1/3">
     <h6 class="footer-title">Legal</h6>
-    <a class="link link-hover">Terms of use</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Cookie policy</a>
+    <a class="link link-hover">Terms of Use</a>
+    <a class="link link-hover">Privacy Policy</a>
   </nav>
 </footer>

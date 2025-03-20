@@ -33,27 +33,29 @@
           >2-3 years</span
         > of Conventional Drill-Based Learning…
       </h1>
-      <div class="flex gap-4 my-6">
-        <!-- <button class="btn btn-accent btn-xl">Enroll Now</button> -->
-        <button class="btn btn-accent uppercase text-2xl p-8 w-1/2"
-          >Book Now</button
-        >
-      </div>
       <p class="text-3xl mb-2">
         And Get… A World Language Credit Certificate to meet the language
         requirement for Graduation or College Entry
       </p>
+      <div class="flex gap-4 my-6">
+        <!-- <button class="btn btn-accent btn-xl">Enroll Now</button> -->
+         
+        <button class="btn btn-accent uppercase text-2xl p-8 w-1/2"
+          >Book Now</button
+        >
+      </div>
+     
     </div>
   </div>
 </div>
 <div class="flex">
   <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
-    <h2 class="text-right">1. More Enjoyable Learning</h2>
+    <h2 class="text-right underline">1. More Enjoyable Learning</h2>
   </div>
   <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
-    <h2>2. Easier Learning</h2>
+    <h2 class="underline">2. Easier Learning</h2>
   </div>
   <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
-    <h2 class="text-left">3. Faster Learning</h2>
+    <h2 class="text-left underline">3. Faster Learning</h2>
   </div>
 </div>

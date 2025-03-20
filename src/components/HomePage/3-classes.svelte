@@ -1,4 +1,4 @@
-<div class="m-20 my-30 ">
+<div class="m-20 my-30 mb-10 ">
     <h2 class="text-7xl font-bold font-accent text-center mb-10">
       How The 3 Story Keys Became The <span class="text-accent underline">Story-Key™</span> Method
     </h2>
@@ -7,8 +7,8 @@
         When I discovered Stories were the Key, I began experimenting with
         hundreds of different Story-Based Activities. Then I tested what
         combinations of activities worked best together…the ideal length of
-        class…the ideal number of classes...the ideal frequency of classes. For
-        years, I tested every technique and approach I could find…and if there was
+        class… the ideal number of classes… the ideal frequency of classes. For
+        years, I tested every technique and approach I could find… and if there was
         something needed that didn't exist, I created it.
       </p>
       <p>
@@ -43,14 +43,10 @@
           <div class="card-body">
             <h2 class="card-title m-auto text-7xl font-accent mb-2">Class #3</h2>
             <img src="https://placehold.co/100x100" width="100" class="m-auto mb-2" alt="">
-
             <h2 class="card-title m-auto text-4xl font-accent underline mb-2">The 45 Minute Triple Expansion Class</h2>
             <p class="text-2xl">This class takes Flexible Learning to the next level and consists of three 15 minute Mini- Classes in One (15 mins + 15 mins + 15 mins = a total of 45 minutes). Each Mini-Class is a fun multisensory application that can be done on its own or in combination with the other 2 and at the most convenient time. Each Mini-Class pulls a huge collection of words into Long-Term Memory and hooks them to the <span class="font-bold">High Frequency Structures</span> we set up in Class 1 and 2. Each Mini-Class also works together with the other two Mini-Classes to balance the Student’s Spanish Mastery equally over all 4 communication skills: Speaking, Understanding, Reading, and Writing. </p> 
           </div>
         </div>
-    </div>
-    <div class="text-center">
-      <button class="btn btn-accent text-4xl p-10 w-full uppercase shadow-lg hover:underline">Book Now</button>
     </div>
   </div>
   
