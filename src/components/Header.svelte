@@ -36,9 +36,9 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-xl font-accent text-[#16455c] menu-horizontal px-1">
-      <li><a href="the-class" class="text-4xl mt-1">The Class</a></li>
-      <li><a href="the-teacher" class="text-4xl mt-1">The Teacher</a></li>
-      <li><a href="questions" class="text-4xl mt-1">Questions</a></li>
+      <li><a href="the-class" class="text-3xl mt-1">The Class</a></li>
+      <li><a href="the-teacher" class="text-3xl mt-1">The Teacher</a></li>
+      <li><a href="questions" class="text-3xl mt-1">Questions</a></li>
     </ul>
   </div>
   <div class="navbar-end">

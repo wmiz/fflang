@@ -3,7 +3,7 @@
 </script>
 
 <div class="m-20">
-  <h2 class="text-7xl font-bold font-accent text-center mb-10">
+  <h2 class="text-6xl font-bold font-accent text-center mb-10">
     My Short Bio
   </h2>
   <div class="relative">
@@ -14,7 +14,7 @@
       alt="Reed's Journey"
       class="w-full md:w-1/3 md:float-left md:mr-8 md:mb-4 rounded-lg shadow-lg"
     />
-    <div class="text-2xl">
+    <div class="text-xl">
       <!-- First 3 paragraphs (always visible) -->
       <p class="mb-2">
         Hi, I’m Reed! I know exactly what it feels like to be a homeschooling mom because I homeschooled my own kids…I know how frustrating it can be to find an engaging class…a class kids won’t resist…but one that they actually love! So I developed The Story-Key™ Method and the 8-Week Fast & Fun Accelerated Language Program. I built it for moms, just like you, who pulled their kids out of the broken school system and who are looking for a Better Way.
@@ -41,7 +41,7 @@
             To check class availability or to learn more about all of my degrees and formal qualifications...
           </p>
 
-          <a class="text-2xl btn bg-[#16455c] text-white p-8 uppercase rounded-lg w-full hover:underline">Read More</a>
+          <a class="text-xl btn bg-[#16455c] text-white p-8 uppercase rounded-lg w-full hover:underline">Read More</a>
     </div>
   </div>
 </div>

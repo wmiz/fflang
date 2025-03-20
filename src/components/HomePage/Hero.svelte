@@ -23,24 +23,24 @@
 
     <!-- Text Column -->
     <div class="w-full lg:w-1/2 lg:pl-8 font-body">
-        <!-- <p class="text-3xl mb-6">
+        <!-- <p class="text-2xl mb-6">
           NEW Fast & Fun Accelerated 8-Week Spanish Program that has helped
           thousands of kids…(Age 11+)
         </p> -->
 
-      <h1 class="text-7xl font-bold font-accent mb-6">
+      <h1 class="text-6xl font-bold font-accent mb-6">
         Speak Better Spanish in 8-Weeks than <span class="underline"
           >2-3 years</span
         > of Conventional Drill-Based Learning…
       </h1>
-      <p class="text-3xl mb-2">
+      <p class="text-2xl mb-2">
         And Get… A World Language Credit Certificate to meet the language
         requirement for Graduation or College Entry
       </p>
       <div class="flex gap-4 my-6">
         <!-- <button class="btn btn-accent btn-xl">Enroll Now</button> -->
          
-        <button class="btn btn-accent uppercase text-2xl p-8 w-1/2"
+        <button class="btn btn-accent uppercase text-xl p-8 w-1/2"
           >Book Now</button
         >
       </div>
@@ -49,13 +49,13 @@
   </div>
 </div>
 <div class="flex">
-  <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
+  <div class="w-1/3 bg-accent text-white text-center text-4xl py-4 font-accent">
     <h2 class="text-right underline">1. More Enjoyable Learning</h2>
   </div>
-  <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
+  <div class="w-1/3 bg-accent text-white text-center text-4xl py-4 font-accent">
     <h2 class="underline">2. Easier Learning</h2>
   </div>
-  <div class="w-1/3 bg-accent text-white text-center text-5xl py-4 font-accent">
+  <div class="w-1/3 bg-accent text-white text-center text-4xl py-4 font-accent">
     <h2 class="text-left underline">3. Faster Learning</h2>
   </div>
 </div>

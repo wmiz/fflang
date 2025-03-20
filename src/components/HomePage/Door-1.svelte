@@ -14,7 +14,7 @@
   <div class="border-y-4  bg-gray-100">
     <div class="flex flex-wrap m-20 mb-20 items-center">
         <div class="w-full">
-        <h2 class="text-7xl font-bold font-accent text-center mb-16">
+        <h2 class="text-6xl font-bold font-accent text-center mb-16">
             Door #1 = The Door to <span class="underline text-accent">More ENJOYABLE</span> Learning
         </h2>
         </div>

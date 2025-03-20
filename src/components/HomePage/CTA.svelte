@@ -73,14 +73,14 @@
 
 <div class="mx-20">
     <!-- Main Heading -->
-    <h1 class="text-7xl font-accent font-bold mb-12 text-center">Summary: Here’s What You Get…</h1>
+    <h1 class="text-6xl font-accent font-bold mb-12 text-center">Summary: Here’s What You Get…</h1>
     <!-- Main Program Components Section -->
     <section class="mb-8 border-4 p-8 rounded-xl bg-white shadow-lg">
-        <h2 class="text-6xl font-accent font-bold mb-4 underline">1. Main Program Components</h2>
+        <h2 class="text-5xl font-accent font-bold mb-4 underline">1. Main Program Components</h2>
         <ul>
             {#each mainComponents as component}
-                <li class="text-2xl mb-2">
-                    <strong class="text-4xl ">{component.name}:</strong> {component.description} 
+                <li class="text-xl mb-2">
+                    <strong class="text-3xl ">{component.name}:</strong> {component.description} 
                     <em class="font-bold text-accent">Value = ${component.value}</em>
                 </li>
             {/each}
@@ -89,11 +89,11 @@
 
     <!-- Bonuses Section -->
     <section class="mb-8 border-4 p-8 rounded-xl bg-white shadow-lg">
-        <h2 class="text-6xl font-accent font-bold mb-4 underline">2. Bonuses</h2>
+        <h2 class="text-5xl font-accent font-bold mb-4 underline">2. Bonuses</h2>
         <ul>
             {#each bonuses as bonus}
-                <li class="text-2xl mb-2">
-                    <strong class="text-4xl">{bonus.name}</strong>: {bonus.description} 
+                <li class="text-xl mb-2">
+                    <strong class="text-3xl">{bonus.name}</strong>: {bonus.description} 
                     <em class="font-bold text-red-500">Value = ${bonus.value}</em>
                 </li>
             {/each}
@@ -101,8 +101,8 @@
     </section>
 
     <!-- Inner Transformation Section -->
-    <section class="mb-16 border-4 p-8 rounded-xl bg-white shadow-lg text-3xl font-bold">
-        <h2 class="text-6xl font-accent font-bold mb-4 underline">3. Inner Transformation</h2>
+    <section class="mb-16 border-4 p-8 rounded-xl bg-white shadow-lg text-2xl font-bold">
+        <h2 class="text-5xl font-accent font-bold mb-4 underline">3. Inner Transformation</h2>
         <p class="mb-2">How do you put a value on replacing false limiting beliefs from the broken school system with 3 Empowering beliefs…“I love Learning,” “Learning’s Easy for me,” “I’m a Fast Learner”?</p>
         <p class="mb-2">How do you put a value on completely restoring The Natural Love of Learning that the broken school system nearly destroyed and moving the overall value of learning in general up to the top of a values hierarchy?</p>
         <p class="mb-2">How do you put a value on helping a child remember they are a Child of God, a Unique expression of the Infinite with a Unique Gift inside of them…waiting to be drawn out (educe) and shared with the world?</p>
@@ -110,17 +110,17 @@
     </section>
 
     <!-- Pricing Section -->
-    <section class="text-6xl text-center font-accent">
+    <section class="text-5xl text-center font-accent">
         <p class="mb-8"><strong>Total Value = <span class="text-red-500">${totalValue.toFixed(2)}</span> (Not including the Inner Transformation because it’s priceless)</strong></p>
-        <p><strong>Your Price = Only $<span class="underline">{regularPrice}</span>… Spring-Special Only <span class="text-7xl ml-2 text-accent">${specialPrice}</span></strong></p>
+        <p><strong>Your Price = Only $<span class="underline">{regularPrice}</span>… Spring-Special Only <span class="text-6xl ml-2 text-accent">${specialPrice}</span></strong></p>
         <div class="text-center font-body py-12">
-            <button class="btn bg-red-500 bg-[#16455c] text-white text-5xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
+            <button class="btn bg-red-500 bg-[#16455c] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
           </div>
     </section>
 
     <section class="pb-8">
-        <!-- <h2 class="text-6xl font-accent font-bold mb-4 underline">A Personal Note</h2> -->
-        <div class="text-2xl italic text-[#16455c] max-w-4/5 m-auto">
+        <!-- <h2 class="text-5xl font-accent font-bold mb-4 underline">A Personal Note</h2> -->
+        <div class="text-xl italic text-[#16455c] max-w-4/5 m-auto">
             <p class="mb-2">* I live by the 10X Principle…which means I always do the best I can to give at least 10X the value of what I receive. Even though we can’t put a price on the Inner Transformation…I believe I am living up to my 10X Principle by keeping the price this low for as long as I can.</p>
             <p class="mb-2">If you are interested, I urge you to click the “Book Now” button and go straight to the class schedule page. You will see CLASS FULL in big red letters across the classes that already have 8 students, and you will see the number of spaces left (also in red) for spaces still available.</p>
             <p>I hope to meet your child in the next class!</p>

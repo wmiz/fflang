@@ -4,7 +4,7 @@
 </script>
 
 <div class="m-20">
-  <h2 class="text-7xl font-bold font-accent text-center mb-10">
+  <h2 class="text-6xl font-bold font-accent text-center mb-10">
     The Inner Transformation
   </h2>
   <div class="relative">
@@ -13,7 +13,7 @@
       alt="Inner Transformation"
       class="w-full md:w-1/2 md:float-left md:mr-8 md:mb-4"
     />
-    <div class="text-2xl">
+    <div class="text-xl">
       <!-- First 5 paragraphs (always visible) -->
       <p class="mb-2">
         As a Homeschooling Mom…you are now a Teacher, too. When I was a new
@@ -175,7 +175,7 @@
       {/if}
     </div>
     <button
-      class="text-2xl btn bg-[#16455c] text-white p-8 uppercase rounded-lg w-full clear-both hover:underline"
+      class="text-xl btn bg-[#16455c] text-white p-8 uppercase rounded-lg w-full clear-both hover:underline"
       on:click={() => (expanded = !expanded)}
     >
       {expanded ? "Read less" : "Read more"}

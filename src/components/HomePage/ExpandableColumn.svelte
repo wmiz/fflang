@@ -6,7 +6,7 @@
   let expanded = false;
 </script>
 
-<div class="w-1/3 text-2xl p-8 shadow-lg border-4 bg-white rounded-xl">
+<div class="w-1/3 text-xl p-8 shadow-lg border-4 bg-white rounded-xl">
   {#if paragraphs.length > 0}
     <p class="mb-2">{@html paragraphs[0]}</p>
     {#if expanded}

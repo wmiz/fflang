@@ -19,7 +19,7 @@
     <div class="border-b-4 bg-gray-100">
   <div class="flex flex-wrap m-20 my-10 items-center">
     <div class="w-full">
-      <h2 class="text-7xl font-bold font-accent text-center mb-10">
+      <h2 class="text-6xl font-bold font-accent text-center mb-10">
         Door #2 = The Door to <span class="underline text-accent">EASIER</span> Learning
       </h2>
     </div>
