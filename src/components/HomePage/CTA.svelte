@@ -75,7 +75,7 @@
     <!-- Main Heading -->
     <h1 class="text-7xl font-accent font-bold mb-12 text-center">Summary: Here’s What You Get…</h1>
     <!-- Main Program Components Section -->
-    <section class="mb-8">
+    <section class="mb-8 border-4 p-8 rounded-xl bg-white shadow-lg">
         <h2 class="text-6xl font-accent font-bold mb-4 underline">1. Main Program Components</h2>
         <ul>
             {#each mainComponents as component}
@@ -88,7 +88,7 @@
     </section>
 
     <!-- Bonuses Section -->
-    <section class="mb-8">
+    <section class="mb-8 border-4 p-8 rounded-xl bg-white shadow-lg">
         <h2 class="text-6xl font-accent font-bold mb-4 underline">2. Bonuses</h2>
         <ul>
             {#each bonuses as bonus}
@@ -101,7 +101,7 @@
     </section>
 
     <!-- Inner Transformation Section -->
-    <section class="text-3xl font-bold mb-12">
+    <section class="mb-16 border-4 p-8 rounded-xl bg-white shadow-lg text-3xl font-bold">
         <h2 class="text-6xl font-accent font-bold mb-4 underline">3. Inner Transformation</h2>
         <p class="mb-2">How do you put a value on replacing false limiting beliefs from the broken school system with 3 Empowering beliefs…“I love Learning,” “Learning’s Easy for me,” “I’m a Fast Learner”?</p>
         <p class="mb-2">How do you put a value on completely restoring The Natural Love of Learning that the broken school system nearly destroyed and moving the overall value of learning in general up to the top of a values hierarchy?</p>
@@ -120,7 +120,7 @@
 
     <section class="pb-8">
         <!-- <h2 class="text-6xl font-accent font-bold mb-4 underline">A Personal Note</h2> -->
-        <div class="text-2xl italic text-[#16455c]">
+        <div class="text-2xl italic text-[#16455c] max-w-4/5 m-auto">
             <p class="mb-2">* I live by the 10X Principle…which means I always do the best I can to give at least 10X the value of what I receive. Even though we can’t put a price on the Inner Transformation…I believe I am living up to my 10X Principle by keeping the price this low for as long as I can.</p>
             <p class="mb-2">If you are interested, I urge you to click the “Book Now” button and go straight to the class schedule page. You will see CLASS FULL in big red letters across the classes that already have 8 students, and you will see the number of spaces left (also in red) for spaces still available.</p>
             <p>I hope to meet your child in the next class!</p>

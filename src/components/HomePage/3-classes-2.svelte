@@ -1,5 +1,9 @@
 <script>
   import BookNow from "./BookNow.svelte";
+
+  import llama from "$lib/img/llama.jpg";
+  import senorwooly from "$lib/img/senorwooly.png";
+  import garbanzo from "$lib/img/garbanzo.png";
 </script>
 
 <div class="m-20 my-30 mt-0 mb-20">
@@ -9,12 +13,12 @@
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-7xl font-accent mb-2">1st Mini-Class</h2>
-        <img
-          src="https://placehold.co/300x200"
+        <!-- <img
+          src={garbanzo}
           width="300"
-          class="m-auto mb-2"
+          class="m-auto"
           alt=""
-        />
+        /> -->
         <h2 class="card-title m-auto text-4xl font-accent underline mb-2">
             Garbanzo
         </h2>
@@ -37,12 +41,12 @@
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-7xl font-accent mb-2">2nd Mini-Class</h2>
-        <img
-          src="https://placehold.co/300x200"
+        <!-- <img
+          src={senorwooly}
           width="300"
           class="m-auto mb-2"
           alt=""
-        />
+        /> -->
 
         <h2 class="card-title m-auto text-4xl font-accent underline mb-2">
             Senor Wooly
@@ -57,12 +61,12 @@
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-7xl font-accent mb-2">3rd Mini-Class</h2>
-        <img
-          src="https://placehold.co/300x200"
+        <!-- <img
+          src={llama}
           width="300"
           class="m-auto mb-2"
           alt=""
-        />
+        /> -->
         <h2 class="card-title m-auto text-4xl font-accent underline mb-2">
             Audio-Digital Novel
         </h2>

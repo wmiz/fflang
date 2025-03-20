@@ -162,7 +162,7 @@
             say I love every single one of them…each for their own unique
             preciousness.
           </p>
-          <p class="mb-2">
+          <p class="mb-8">
             I thought I was looking for a vehicle that would help me teach
             Spanish in a quicker, easier, and enjoyable way. I found that
             vehicle, but I also found that teaching Spanish is simply a vehicle
@@ -175,10 +175,10 @@
       {/if}
     </div>
     <button
-      class="text-2xl btn bg-[#16455c] text-white p-6 uppercase rounded-lg w-full clear-both"
+      class="text-2xl btn bg-[#16455c] text-white p-8 uppercase rounded-lg w-full clear-both hover:underline"
       on:click={() => (expanded = !expanded)}
     >
-      {expanded ? "Read less..." : "Read more..."}
+      {expanded ? "Read less" : "Read more"}
     </button>
   </div>
 </div>

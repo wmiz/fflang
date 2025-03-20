@@ -36,11 +36,13 @@
   </div>
 
   <TeacherBio />
+
+<Testimonials />
+
   <CTA />
 </div>
 
 <!-- <Stairs /> -->
 <!-- <ClassStructure />
-<Testimonials />
 <ThreeSteps />
 <WhatYouGet /> -->

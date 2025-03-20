@@ -25,7 +25,7 @@
     </div>
     <ExpandableColumn paragraphs={column1} />
     <div class="w-1/3 p-8">
-        <img src="https://placehold.co/400x600" alt="Column 2 Image" class="w-full h-auto" />
+        <img src={door} alt="Column 2 Image" class="w-full h-auto p-20" />
       </div>
     <ExpandableColumn paragraphs={column3} />
   </div>
