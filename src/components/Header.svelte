@@ -2,7 +2,7 @@
   import logo from "$lib/img/LOGO.png";
 </script>
 
-<div class="navbar bg-base-100 shadow-sm md:px-8 py-3">
+<div class="navbar bg-base-100 md:px-8 py-3">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -35,13 +35,14 @@
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-xl font-accent text-[#16455c] menu-horizontal px-1">
-      <li><a href="the-class" class="text-3xl mt-1">The Class</a></li>
-      <li><a href="the-teacher" class="text-3xl mt-1">The Teacher</a></li>
-      <li><a href="questions" class="text-3xl mt-1">Questions</a></li>
+    <ul class="menu menu-xl font-accent text-[#000000] menu-horizontal px-1">
+      <li><a href="the-class" class="text-2xl mt-1">The Class</a></li>
+      <li><a href="the-teacher" class="text-2xl mt-1">The Teacher</a></li>
+      <li><a href="the-teacher" class="text-2xl mt-1">Testimonials</a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn bg-accent text-white text-3xl p-8 font-accent">Enroll Now</a>
+    <a class="btn bg-yellow-500 text-white mr-2 text-2xl p-6 font-accent rounded-full min-w-[240px]">Student Login</a>
+    <a class="btn bg-[#e4492d] text-white text-2xl p-6 font-accent rounded-full min-w-[240px]">Book Now</a>
   </div>
 </div>

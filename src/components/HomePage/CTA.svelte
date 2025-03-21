@@ -114,13 +114,13 @@
         <p class="mb-8"><strong>Total Value = <span class="text-red-500">${totalValue.toFixed(2)}</span> (Not including the Inner Transformation because it’s priceless)</strong></p>
         <p><strong>Your Price = Only $<span class="underline">{regularPrice}</span>… Spring-Special Only <span class="text-6xl ml-2 text-accent">${specialPrice}</span></strong></p>
         <div class="text-center font-body py-12">
-            <button class="btn bg-red-500 bg-[#16455c] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
+            <button class="btn bg-red-500 bg-[#000000] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
           </div>
     </section>
 
     <section class="pb-8">
         <!-- <h2 class="text-5xl font-accent font-bold mb-4 underline">A Personal Note</h2> -->
-        <div class="text-xl italic text-[#16455c] max-w-4/5 m-auto">
+        <div class="text-xl italic text-[#000000] max-w-4/5 m-auto">
             <p class="mb-2">* I live by the 10X Principle…which means I always do the best I can to give at least 10X the value of what I receive. Even though we can’t put a price on the Inner Transformation…I believe I am living up to my 10X Principle by keeping the price this low for as long as I can.</p>
             <p class="mb-2">If you are interested, I urge you to click the “Book Now” button and go straight to the class schedule page. You will see CLASS FULL in big red letters across the classes that already have 8 students, and you will see the number of spaces left (also in red) for spaces still available.</p>
             <p>I hope to meet your child in the next class!</p>

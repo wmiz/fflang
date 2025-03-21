@@ -14,7 +14,7 @@
     ></iframe>
   </div>
 </div>
-<div class="text-xl mx-20 mb-20">
+<div class="text-2xl mx-20 mb-20 mx-50">
   <h2 class="text-4xl font-accent font-bold text-center mb-6">
     HOW is this Possible?
   </h2>

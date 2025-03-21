@@ -15,10 +15,14 @@
   import WhatYouGet from "../components/HomePage/WhatYouGet.svelte";
   import CTA from "../components/HomePage/CTA.svelte";
   import InnerTransformation from "../components/HomePage/InnerTransformation.svelte";
+  import Screen from "../components/HomePage/Screen.svelte";
 </script>
 
-<div class="text-[#16455c] bg-gray-100">
-  <Hero />
+<div class="text-[#000000] mx-10" style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;">
+  <div style="border-right: solid; border-color:#efb100;border-right-width: 20px;border-left: solid; border-color:#efb100;border-left-width: 20px; border-top: solid; border-color:#efb100;border-top-width: 20px;">
+  <div>
+    <Hero />
+  </div>
   <Video />
   <Door1 />
   <Door2 />
@@ -40,7 +44,8 @@
 <Testimonials />
 
   <CTA />
-</div>
+</div></div>
+
 
 <!-- <Stairs /> -->
 <!-- <ClassStructure />
