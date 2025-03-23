@@ -15,7 +15,7 @@
     <div class="flex flex-wrap m-20 mb-20 items-center">
         <div class="w-full">
         <h2 class="text-6xl font-bold font-accent text-center mb-16">
-            Door #1 = The Door to <span class="underline text-accent">More ENJOYABLE</span> Learning
+            Door #1 = The Door to <span class="underline text-yellow-500">More ENJOYABLE</span> Learning
         </h2>
         </div>
         <ExpandableColumn paragraphs={column1} header="PROBLEM" />

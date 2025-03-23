@@ -1,6 +1,7 @@
 <script>
 
   import BookNow from "./BookNow.svelte";
+  import img from "$lib/img/2.png";
 
 </script>
 <div class="m-20">
@@ -32,7 +33,7 @@
     </p>
   </div>
   <div class="text-center flex justify-center">
-    <img class="mx-10" src="https://placehold.co/600x600" alt="" />
+    <img class="mx-10" src={img} width="600" alt="" />
   </div>
   <div class="text-2xl my-10 px-10">
     <p class="mb-2">

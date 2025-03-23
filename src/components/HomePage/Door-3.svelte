@@ -19,7 +19,7 @@
 <div class="flex flex-wrap m-20 items-center">
   <div class="w-full">
     <h2 class="text-6xl font-bold font-accent text-center mb-10">
-      Door #3 = The Door to <span class="underline text-accent">FASTER</span> Learning
+      Door #3 = The Door to <span class="underline text-yellow-500">FASTER</span> Learning
     </h2>
   </div>
   <ExpandableColumn paragraphs={column1} />
