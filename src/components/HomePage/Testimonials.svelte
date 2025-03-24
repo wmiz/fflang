@@ -9,7 +9,7 @@
   </h2>
   <div class="my-10 flex">
     <div
-      class="card text-center w-1/2 bg-white border-4 shadow-lg m-2 rounded-md"
+      class="card text-center w-1/2 bg-white shadow-2xl m-2 rounded-md"
     >
       <div class="card-body">
         <h2 class="card-title text-4xl font-accent mb-8">
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div
-      class="card text-center w-1/2 bg-white border-4 shadow-lg m-2 rounded-md"
+      class="card text-center w-1/2 bg-white shadow-2xl m-2 rounded-md"
     >
       <div class="card-body">
         <h2 class="card-title text-4xl font-accent mb-8">

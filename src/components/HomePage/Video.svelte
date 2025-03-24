@@ -1,6 +1,6 @@
 <div class="flex justify-center items-center my-16">
   <div class="flex justify-center items-center flex-col gap-12">
-    <h2 class="text-6xl font-accent font-normal">
+    <h2 class="text-6xl font-accent font-bold">
       Watch this Short 3 Minute Video NOW!
     </h2>
     <iframe
