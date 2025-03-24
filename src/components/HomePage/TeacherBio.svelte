@@ -40,8 +40,9 @@
           <p class="mb-8">
             To check class availability or to learn more about all of my degrees and formal qualifications...
           </p>
-
-          <a class="text-xl btn bg-[#000000] text-white p-8 uppercase rounded-full w-full hover:underline">Read More</a>
+          <div class="text-center">
+          <a class="text-xl btn bg-[#1877F2] text-white p-6 uppercase rounded-full hover:underline">Read More...</a>
+        </div>
     </div>
   </div>
 </div>

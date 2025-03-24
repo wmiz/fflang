@@ -10,6 +10,7 @@
   import Stairs from "../components/HomePage/Stairs.svelte";
   import ClassStructure from "../components/HomePage/ClassStructure.svelte";
   import TeacherBio from "../components/HomePage/TeacherBio.svelte";
+  import Tests from "../components/HomePage/Tests.svelte";
   // import Testimonials from "../components/HomePage/Testimonials.svelte";
   import ThreeSteps from "../components/HomePage/ThreeSteps.svelte";
   import WhatYouGet from "../components/HomePage/WhatYouGet.svelte";
@@ -18,7 +19,7 @@
   import Screen from "../components/HomePage/Screen.svelte";
 </script>
 
-<div class="">
+<div style="max-width:1600px; margin: 0 auto;">
   <div
     class="text-[#000000] mx-10"
     style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;"
@@ -30,6 +31,7 @@
         <Hero />
       </div>
       <Video />
+      <!-- <Tests /> -->
       <Classes />
       <div class="border-b-4">
         <InnerTransformation />

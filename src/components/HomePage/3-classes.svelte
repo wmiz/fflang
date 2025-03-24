@@ -28,7 +28,7 @@
     </div>
     <div class="my-10 flex">
         <div class="card text-center bg-white w-1/3 shadow-2xl m-2 rounded-md bg-gradient-to-br from-white to-gray-100">
-          <div class="card-body p-16">
+          <div class="card-body p-8">
             <h2 class="card-title justify-center p-2 rounded-full text-4xl font-accent mb-2 uppercase bg-[#efb100] shadow-md text-white w-full">Class 1</h2>
             <img src={live} width="80" class="m-auto mb-2" alt="">
             <h2 class="card-title m-auto text-2xl font-accent italic">The LIVE 60 Minute Class</h2>
@@ -38,7 +38,7 @@
         </div>
         <div class="card text-center bg-white w-1/3 shadow-2xl m-2 rounded-md bg-gradient-to-br from-white to-gray-100">
 
-          <div class="card-body p-16">
+          <div class="card-body p-8">
             <h2 class="card-title justify-center p-2 rounded-full text-4xl font-accent mb-2 uppercase bg-[#efb100] shadow-md text-white w-full">Class 2</h2>
             <img src={ zoom } width="80" class="m-auto mb-2" alt="">
 
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="card text-center bg-white w-1/3 shadow-2xl m-2 rounded-md bg-gradient-to-br from-white to-gray-100">
-          <div class="card-body p-16">
+          <div class="card-body p-8">
             <h2 class="card-title justify-center p-2 rounded-full text-4xl font-accent mb-2 uppercase bg-[#efb100]  shadow-md text-white w-full">Class 3</h2>
             <img src={ triple } width="80" class="m-auto mb-2" alt="">
             <h2 class="card-title m-auto text-2xl font-accent italic">The 45 Minute Triple Expansion Class</h2>
