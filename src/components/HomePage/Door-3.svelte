@@ -15,7 +15,7 @@
     'The most popular device for LINKING these random items together was a STORY. We use the exact same device, but instead of using a Story to Remember a list of random items, we use stories to help the student Remember a vast range of different sentence structures. As we have fun playing with and talking about different types of Stories, the student is unconsciously learning how to LINK the different types of sentences together in a natural and flowing way. This is How we Achieve Accelerated Fluency. We get the student <span class="underline">IN</span> the flow of the conversation in just 20 hours…over 8 weeks, when it takes Conventional Drill Based Learning 600 hours (an hour each day) over 2-3 years to achieve this same level of Basic Spanish Fluency. <span class="font-bold">Stories are by far the FASTEST WAY TO SPANISH FLUENCY.</span>'
   ];
 </script>
-  <div class="border-b-4 bg-gray-100">
+  <div class="border-b-4 ">
 <div class="flex flex-wrap m-20 items-center">
   <div class="w-full">
     <h2 class="text-6xl font-bold font-accent text-center mb-10">
@@ -23,8 +23,8 @@
     </h2>
   </div>
   <ExpandableColumn paragraphs={column1} />
-  <div class="w-1/3 p-8">
-    <img src={ door } alt="Column 2 Image" class="w-full h-auto p-20" />
+  <div class="w-1/3">
+    <img src={ door } alt="Column 2 Image" class="w-full h-auto" />
   </div>
   <ExpandableColumn paragraphs={column3} />
 </div>

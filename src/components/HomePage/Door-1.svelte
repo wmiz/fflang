@@ -11,7 +11,7 @@
     ];
   </script>
   
-  <div class="border-y-4  bg-gray-100">
+  <div class="border-y-4  ">
     <div class="flex flex-wrap m-20 mb-20 items-center">
         <div class="w-full">
         <h2 class="text-6xl font-bold font-accent text-center mb-16">
@@ -19,8 +19,8 @@
         </h2>
         </div>
         <ExpandableColumn paragraphs={column1} header="PROBLEM" />
-        <div class="w-1/3 p-8">
-        <img src={door} alt="Door to More Enjoyable Learning" class="w-full h-auto p-20" />
+        <div class="w-1/3">
+        <img src={door} alt="Door to More Enjoyable Learning" class="w-full h-auto" />
         </div>
         <ExpandableColumn paragraphs={column3} header="SOLUTION" />
     </div>

@@ -9,7 +9,7 @@
 <div class="m-20 my-30 mt-0 mb-20">
   <div class="my-10 mt-0 flex">
     <div
-      class="card text-center w-1/3 bg-white border-4 shadow-lg m-2 rounded-md"
+      class="card text-center w-1/3 bg-white shadow-2xl m-2 rounded-md"
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-6xl font-accent mb-2">1st Mini-Class</h2>
@@ -19,7 +19,7 @@
           class="m-auto"
           alt=""
         /> -->
-        <h2 class="card-title m-auto text-3xl font-accent underline mb-2">
+        <h2 class="card-title m-auto text-3xl font-accent mb-2">
             Garbanzo
         </h2>
 
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div
-      class="card text-center w-1/3 bg-white shadow-lg border-4 m-2 rounded-md"
+      class="card text-center w-1/3 bg-white shadow-2xl m-2 rounded-md"
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-6xl font-accent mb-2">2nd Mini-Class</h2>
@@ -48,7 +48,7 @@
           alt=""
         /> -->
 
-        <h2 class="card-title m-auto text-3xl font-accent underline mb-2">
+        <h2 class="card-title m-auto text-3xl font-accent mb-2">
             Senor Wooly
         </h2>
         <p class="text-xl">
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div
-      class="card text-center bg-white w-1/3 shadow-lg border-4 m-2 rounded-md"
+      class="card text-center bg-white w-1/3 shadow-2xl m-2 rounded-md"
     >
       <div class="card-body">
         <h2 class="card-title m-auto text-6xl font-accent mb-2">3rd Mini-Class</h2>
@@ -67,7 +67,7 @@
           class="m-auto mb-2"
           alt=""
         /> -->
-        <h2 class="card-title m-auto text-3xl font-accent underline mb-2">
+        <h2 class="card-title m-auto text-3xl font-accent mb-2">
             Audio-Digital Novel
         </h2>
         <p class="text-xl">

@@ -1,12 +1,12 @@
 <div class="flex justify-center items-center my-16">
   <div class="flex justify-center items-center flex-col gap-12">
-    <h2 class="text-6xl font-accent font-bold">
+    <h2 class="text-6xl font-accent font-normal">
       Watch this Short 3 Minute Video NOW!
     </h2>
     <iframe
       width="720"
       height="405"
-      src="https://www.youtube.com/embed/1jHJ8Y1vJQ4"
+      src="https://www.youtube.com/watch?v=9xwazD5SyVg"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -15,10 +15,10 @@
   </div>
 </div>
 <div class="text-2xl mx-20 mb-20 mx-50">
-  <h2 class="text-4xl font-accent font-bold text-center mb-6">
+  <h2 class="text-5xl font-accent font-bold text-center mb-6">
     HOW is this Possible?
   </h2>
-  <p class="mb-2">
+  <p class="mb-12">
     The Fast & Fun 8-Week Accelerated Spanish Program gets students
     communicating IN Spanish…IN full sentences right from the start. It trains
     students to be in <span class="underline"
@@ -26,7 +26,7 @@
     > rather than getting stuck in their head thinking about words & grammar while
     the conversation leaves them behind.
   </p>
-  <p class="mb-2">
+  <p class="mb-12">
     The first surprise is the whole class is literally IN SPANISH…meaning, we
     don’t speak any English and the next Surprise is…there is <span
       class="underline">ZERO STRESS</span

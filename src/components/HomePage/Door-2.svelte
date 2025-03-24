@@ -16,7 +16,7 @@
       'The really good news is this…with the language going into Long-Term Memory, normal conversation in class over the 8-Week Program is more than enough repetition to give unconscious competence…AKA, Mastery. Even better news…Mastery of the Spanish language will always be there anytime you need it for the rest of your life…without having to reinforce any of it with boring drills. <span class="font-bold">The New Story Based Method is the EASIEST way to Learn Spanish.</span>'
     ];
   </script>
-    <div class="border-b-4 bg-gray-100">
+    <div class="border-b-4 ">
   <div class="flex flex-wrap m-20 my-10 items-center">
     <div class="w-full">
       <h2 class="text-6xl font-bold font-accent text-center mb-10">
@@ -24,8 +24,8 @@
       </h2>
     </div>
     <ExpandableColumn paragraphs={column1} />
-    <div class="w-1/3 p-8">
-        <img src={door} alt="Column 2 Image" class="w-full h-auto p-20" />
+    <div class="w-1/3">
+        <img src={door} alt="Column 2 Image" class="w-full h-auto" />
       </div>
     <ExpandableColumn paragraphs={column3} />
   </div>

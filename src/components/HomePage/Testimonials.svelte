@@ -61,7 +61,7 @@
   </div>
   <div>
     <button
-      class="btn w-full text-white cursor-pointer bg-[#000000] p-8 text-xl uppercase hover:underline"
+      class="btn rounded-full w-full text-white cursor-pointer bg-[#000000] p-8 text-xl uppercase hover:underline"
       >More Testimionials</button
     >
   </div>

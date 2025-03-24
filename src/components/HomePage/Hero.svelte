@@ -1,5 +1,5 @@
 <script>
-  import herobg from "$lib/img/hero.png";
+  import herobg from "$lib/img/hero.jpg";
 </script>
 
 <div class="p-10 min-h-screen relative" style="background: white">
@@ -26,13 +26,9 @@
         </p> -->
 
       <p class="mb-2 text-3xl text-[#e4492d] font-bold drop-shadow-md">
-        NEW Fast & Fun Accelerated 8-Week Spanish Program that has helped
-        thousands of kids… (Age 11+)
-      </p>
+        NEW Story-Based 8-Week Accelerated Spanish Program that has helped thousands of kids (Age 11+)...      </p>
       <h1 class="text-7xl text-[#1877F2] font-bold font-accent mb-4">
-        Speak Better Spanish in 8-Weeks than <span class="underline"
-          >2-3 years</span
-        > of Conventional Drill-Based Learning…
+        Speak Conversational Spanish in 2 Months instead of 2 Years...with Zero Boring Drills or Textbooks
       </h1>
       <p class="text-3xl mb-2">
         And Get… A <span class="font-bold">World Language Credit</span> Certificate to meet the language
@@ -46,7 +42,7 @@
           >Book Now</button
         >
       </div>
-      <div class="max-w-1/2 text-2xl">
+      <div class="max-w-1/2 text-2xl mt-18">
         <p class="mb-2">
           This NEW Story-based way of teaching that makes learning more
           enjoyable, easier, and much faster than conventional Drill-based
@@ -69,7 +65,7 @@
       leaves them behind.
     </p>
 
-    <div class="w-full flex justify-end mt-[-360px]">
+    <div class="w-full flex justify-end mt-[-460px]">
       <img src={herobg} width="600" alt="Live Cam" />
     </div>
   </div>

@@ -6,20 +6,20 @@
   let expanded = false;
 </script>
 
-<div class="w-1/3 text-xl p-8 shadow-lg border-4 bg-white rounded-xl">
+<div class="w-1/3 text-xl/tight p-8 shadow-2xl bg-white rounded-xl">
   {#if paragraphs.length > 0}
-    <p class="mb-2">{@html paragraphs[0]}</p>
+    <p class="mb-4">{@html paragraphs[0]}</p>
     {#if expanded}
       <div transition:slide>
         {#each paragraphs.slice(1) as paragraph}
-          <p class="mb-2">{@html paragraph}</p>
+          <p class="mb-4">{@html paragraph}</p>
         {/each}
       </div>
     {/if}
     {#if paragraphs.length > 1} <!-- Only show button if there are multiple paragraphs -->
       <button
         on:click={() => expanded = !expanded}
-        class="mt-2 text-xl uppercase cursor-pointer btn p-6 bg-[#000000] btn-primary w-full rounded-xl"
+        class="mt-2 rounded-full text-2xl p-6 uppercase cursor-pointer btn bg-[#000000] btn-primary w-full"
         aria-expanded={expanded}
       >
         {expanded ? 'Read Less...' : 'Read More...'}

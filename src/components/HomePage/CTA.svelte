@@ -81,7 +81,7 @@
             {#each mainComponents as component}
                 <li class="text-xl mb-2">
                     <strong class="text-3xl ">{component.name}:</strong> {component.description} 
-                    <em class="font-bold text-accent">Value = ${component.value}</em>
+                    <em class="font-bold text-[#e4492d]">Value = ${component.value}</em>
                 </li>
             {/each}
         </ul>
@@ -111,10 +111,10 @@
 
     <!-- Pricing Section -->
     <section class="text-5xl text-center font-accent">
-        <p class="mb-8"><strong>Total Value = <span class="text-red-500">${totalValue.toFixed(2)}</span> (Not including the Inner Transformation because it’s priceless)</strong></p>
-        <p><strong>Your Price = Only $<span class="underline">{regularPrice}</span>… Spring-Special Only <span class="text-6xl ml-2 text-accent">${specialPrice}</span></strong></p>
+        <p class="mb-8"><strong>Total Value = <span class="text-[#e4492d]">${totalValue.toFixed(2)}</span> (Not including the Inner Transformation because it’s priceless)</strong></p>
+        <p><strong>Your Price = Only $<span class="underline">{regularPrice}</span>… Spring-Special Only <span class="text-6xl ml-2 text-blue-500">${specialPrice}</span></strong></p>
         <div class="text-center font-body py-12">
-            <button class="btn bg-red-500 bg-[#000000] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
+            <button class="btn bg-[#e4492d] rounded-full bg-[#000000] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline">Book Now</button>
           </div>
     </section>
 
