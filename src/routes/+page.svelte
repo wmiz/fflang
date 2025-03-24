@@ -10,7 +10,7 @@
   import Stairs from "../components/HomePage/Stairs.svelte";
   import ClassStructure from "../components/HomePage/ClassStructure.svelte";
   import TeacherBio from "../components/HomePage/TeacherBio.svelte";
-  import Testimonials from "../components/HomePage/Testimonials.svelte";
+  // import Testimonials from "../components/HomePage/Testimonials.svelte";
   import ThreeSteps from "../components/HomePage/ThreeSteps.svelte";
   import WhatYouGet from "../components/HomePage/WhatYouGet.svelte";
   import CTA from "../components/HomePage/CTA.svelte";
@@ -18,36 +18,26 @@
   import Screen from "../components/HomePage/Screen.svelte";
 </script>
 
-<div class="text-[#000000] mx-10" style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;">
-  <div style="border-right: solid; border-color:#efb100;border-right-width: 20px;border-left: solid; border-color:#efb100;border-left-width: 20px; border-top: solid; border-color:#efb100;border-top-width: 20px;border-bottom: solid; border-color:#efb100;border-bottom-width: 20px;">
-  <div>
-    <Hero />
+<div class="">
+  <div
+    class="text-[#000000] mx-10"
+    style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;"
+  >
+    <div
+      style="border-right: solid; border-color:#efb100;border-right-width: 20px;border-left: solid; border-color:#efb100;border-left-width: 20px; border-top: solid; border-color:#efb100;border-top-width: 20px;border-bottom: solid; border-color:#efb100;border-bottom-width: 20px;"
+    >
+      <div>
+        <Hero />
+      </div>
+      <Video />
+      <Classes />
+      <div class="border-b-4">
+        <InnerTransformation />
+      </div>
+
+      <TeacherBio />
+
+      <CTA />
+    </div>
   </div>
-  <Video />
-  <!-- <Door1 />
-  <Door2 />
-  <Door3 /> -->
-  <Classes />
-  <!-- <div class="border-b-4">
-    <Classes2 />
-  </div> -->
-  <!-- <div class="border-b-4">
-    <Stairs />
-  </div> -->
-
-  <div class="border-b-4">
-    <InnerTransformation />
-  </div>
-
-  <TeacherBio />
-
-<Testimonials />
-
-  <CTA />
-</div></div>
-
-
-<!-- <Stairs /> -->
-<!-- <ClassStructure />
-<ThreeSteps />
-<WhatYouGet /> -->
+</div>

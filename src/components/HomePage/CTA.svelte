@@ -144,7 +144,7 @@
       </p>
     </section>
 
-    <section class="text-5xl text-center font-accent">
+    <section class="text-4xl text-center font-accent">
       <p class="mb-8">
         Total Value = <span class="text-[#e4492d]"
           >${totalValue.toFixed(2)}</span
@@ -153,7 +153,7 @@
       <p>
         Your Price = Only $<span class="underline">{regularPrice}</span>…
         Spring-Special Only
-        <span class="text-6xl ml-2 font-bold text-blue-500"
+        <span class="text-5xl ml-2 font-bold text-blue-500"
           >${specialPrice}</span
         >
       </p>

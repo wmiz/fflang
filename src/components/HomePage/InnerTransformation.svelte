@@ -4,8 +4,8 @@
 </script>
 
 <div class="m-20">
-  <h2 class="text-6xl font-bold font-accent text-center mb-10">
-    The Inner Transformation
+  <h2 class="text-6xl font-bold font-accent text-left mb-10">
+    The <span class="text-[#e4492d] italic uppercase underline">Inner</span> Transformation
   </h2>
   <div class="relative">
     <img
@@ -174,11 +174,13 @@
         </div>
       {/if}
     </div>
+    <div class="text-center mt-12">
     <button
-      class="text-xl rounded-full btn bg-[#000000] text-white p-8 uppercase w-full clear-both hover:underline"
+      class="text-xl rounded-full btn bg-[#1877F2] text-center text-white p-6 uppercase clear-both hover:underline"
       on:click={() => (expanded = !expanded)}
     >
-      {expanded ? "Read less" : "Read more"}
+      {expanded ? "Read less..." : "Read more..."}
     </button>
+  </div>
   </div>
 </div>

@@ -14,8 +14,8 @@
     ></iframe>
   </div>
 </div>
-<div class="text-2xl mx-20 mb-20 mx-50">
-  <h2 class="text-5xl font-accent font-bold text-center mb-6">
+<div class="text-2xl mx-20 mb-20 mx-50 shadow-2xl p-20 rounded-xl bg-gradient-to-br from-white to-gray-100">
+  <h2 class="text-5xl font-accent font-bold text-center mb-12">
     HOW is this Possible?
   </h2>
   <p class="mb-12">
@@ -36,7 +36,7 @@
     <span class="underline">WONDER</span>
     and <span class="underline">CURIOSITY</span> of exploring what’s possible.
   </p>
-  <p class="mb-2">
+  <p class="mb-12">
     This program is for Homeschooling Moms of pre-teens & teens who have pulled
     their kids out of the Broken School System and are <span
       class="font-bold underline">looking for a Better Way.</span

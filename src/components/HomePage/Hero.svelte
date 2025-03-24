@@ -2,28 +2,20 @@
   import herobg from "$lib/img/hero.jpg";
 </script>
 
-<div class="p-10 min-h-screen relative" style="background: white">
+<div class="p-10 min-h-screen relative ">
   <!-- Add a radial mask -->
   <div
-    class="absolute inset-0 bg-white text-black"
+    class="absolute inset-0 bg-white text-black bg-gradient-to-tr from-gray-100 to-gray-200"
     style="
       <!-- background: radial-gradient(circle, transparent 60%, rgba(0, 0, 0, 0.5) 100%); -->
     "
   ></div>
 
-  <!-- Content overlay -->
   <div class="hero-overlay"></div>
   <div
     class="flex flex-col lg:justify-between text-neutral-content px-4 lg:px-0 w-full relative z-10 lg:gap-0"
   >
-    <!-- Video Column -->
-
-    <!-- Text Column -->
     <div class="w-full lg:pl-8 font-body rounded-xl p-8 pb-0 text-black">
-      <!-- <p class="text-2xl mb-6">
-          NEW Fast & Fun Accelerated 8-Week Spanish Program that has helped
-          thousands of kids…(Age 11+)
-        </p> -->
 
       <p class="mb-2 text-3xl text-[#e4492d] font-bold drop-shadow-md">
         NEW Story-Based 8-Week Accelerated Spanish Program that has helped thousands of kids (Age 11+)...      </p>
@@ -57,15 +49,9 @@
         </p>
       </div>
     </div>
-    <p>
-      The Fast & Fun 8-Week Accelerated Spanish Program gets students
-      communicating IN Spanish…IN full sentences right from the start. It trains
-      students to be in THE NATURAL FLOW OF THE CONVERSATION rather than getting
-      stuck in their head thinking about words & grammar while the conversation
-      leaves them behind.
-    </p>
 
-    <div class="w-full flex justify-end mt-[-460px]">
+
+    <div class="w-full flex justify-end mt-[-300px]">
       <img src={herobg} width="600" alt="Live Cam" />
     </div>
   </div>
