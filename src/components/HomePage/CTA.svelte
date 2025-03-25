@@ -88,8 +88,8 @@
     <h1 class="text-6xl font-accent font-bold mb-12 text-center">
       Summary: Here’s What You Get…
     </h1>
-    <section class="mb-8 shadow-2xl p-8 rounded-xl bg-white">
-      <h2 class="text-5xl font-accent font-bold mb-4 underline">
+    <section class="mb-8 shadow-2xl p-8 rounded-xl bg-gradient-to-br from-white to-gray-100">
+      <h2 class="text-5xl font-accent font-bold mb-4">
         1. Main Program Components
       </h2>
       <ul>
@@ -103,22 +103,22 @@
       </ul>
     </section>
 
-    <section class="mb-8 shadow-2xl p-8 rounded-xl bg-gray-200">
-      <h2 class="text-5xl font-accent font-bold mb-4 underline">2. Bonuses</h2>
+    <section class="mb-8 shadow-2xl p-8 rounded-xl bg-gradient-to-br from-white to-gray-100">
+      <h2 class="text-5xl font-accent font-bold mb-4">2. Bonuses</h2>
       <ul>
         {#each bonuses as bonus}
           <li class="text-xl mb-2">
             <strong class="text-3xl">{bonus.name}</strong>: {bonus.description}
-            <em class="font-bold text-red-500">Value = ${bonus.value}</em>
+            <em class="font-bold text-[#e4492d]">Value = ${bonus.value}</em>
           </li>
         {/each}
       </ul>
     </section>
 
     <section
-      class="mb-16 p-8 rounded-xl bg-white shadow-2xl text-2xl font-bold"
+      class="mb-16 p-8 rounded-xl bg-gradient-to-br from-white to-gray-100 shadow-2xl text-2xl font-bold"
     >
-      <h2 class="text-5xl font-accent font-bold mb-4 underline">
+      <h2 class="text-5xl font-accent font-bold mb-4">
         3. Inner Transformation
       </h2>
       <p class="mb-2">

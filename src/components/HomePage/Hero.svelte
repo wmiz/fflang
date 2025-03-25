@@ -5,7 +5,7 @@
 <div class="p-10 min-h-screen relative ">
   <!-- Add a radial mask -->
   <div
-    class="absolute inset-0 bg-white text-black bg-gradient-to-tr from-gray-100 to-gray-200"
+    class="absolute inset-0 bg-white text-black "
     style="
       <!-- background: radial-gradient(circle, transparent 60%, rgba(0, 0, 0, 0.5) 100%); -->
     "
@@ -18,12 +18,12 @@
     <div class="w-full lg:pl-8 font-body rounded-xl p-8 pb-0 text-black">
 
       <p class="mb-2 text-3xl text-[#e4492d] font-bold drop-shadow-md">
-        NEW Story-Based 8-Week Accelerated Spanish Program that has helped thousands of kids (Age 11+)...      </p>
-      <h1 class="text-7xl text-[#1877F2] font-bold font-accent mb-4">
-        Speak Conversational Spanish in 2 Months instead of 2 Years...with Zero Boring Drills or Textbooks
+        NEW Story-Based 8-Week Accelerated Spanish Program that has helped <span class="text-5xl uppercase">thousands</span> of kids (Age 11+)...      </p>
+      <h1 class="text-6xl text-[#1877F2] font-bold font-accent mb-4">
+        Speak Conversational Spanish in <span class="text-6xl">2 Months</span> instead of <span class="text-6xl">2 Years</span>...with Zero Boring Drills or Textbooks
       </h1>
       <p class="text-3xl mb-2">
-        And Get… A <span class="font-bold">World Language Credit</span> Certificate to meet the language
+        And Get… A <span class="font-bold text-4xl">World Language Credit</span> Certificate to meet the language
         requirement for Graduation or College Entry
       </p>
       <div class="flex gap-4 my-6">

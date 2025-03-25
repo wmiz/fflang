@@ -21,7 +21,7 @@
 
 <div style="max-width:1600px; margin: 0 auto;">
   <div
-    class="text-[#000000] mx-10"
+    class="text-[#000000] mx-10 mb-10"
     style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;"
   >
     <div
