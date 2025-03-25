@@ -25,6 +25,7 @@
     style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;"
   >
     <div
+    class=""
       style="border-right: solid; border-color:#efb100;border-right-width: 20px;border-left: solid; border-color:#efb100;border-left-width: 20px; border-top: solid; border-color:#efb100;border-top-width: 20px;border-bottom: solid; border-color:#efb100;border-bottom-width: 20px;"
     >
       <div>

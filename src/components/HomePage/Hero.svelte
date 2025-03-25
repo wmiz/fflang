@@ -52,7 +52,7 @@
 
 
     <div class="w-full flex justify-end mt-[-300px]">
-      <img src={herobg} width="600" alt="Live Cam" />
+      <img src={herobg} class="max-w-1/2" width="600" alt="Live Cam" />
     </div>
   </div>
 </div>

@@ -2,7 +2,7 @@
   import logo from "$lib/img/LOGO.png";
 </script>
 
-<div class="navbar bg-base-100 md:px-8 py-3">
+<div class="navbar md:px-8 py-3">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">

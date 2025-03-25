@@ -174,9 +174,9 @@
         </div>
       {/if}
     </div>
-    <div class="text-center mt-12">
+    <div class="text-right mt-4">
     <button
-      class="text-xl rounded-full btn bg-[#1877F2] text-center text-white p-6 uppercase clear-both hover:underline"
+      class="text-xl bg-[#e4492d] text-center text-white p-2 px-4 uppercase clear-both hover:underline"
       on:click={() => (expanded = !expanded)}
     >
       {expanded ? "Read less..." : "Read more..."}

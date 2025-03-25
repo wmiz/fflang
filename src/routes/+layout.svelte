@@ -15,10 +15,10 @@
   });
 </script>
 
-<div class="font-heading">
+<div class="font-heading bg-gradient-to-tr from-gray-50 to-gray-100">
   <Header />
   {#if visible}
-    <div in:fade={{ duration: 125 }}>
+    <div in:fade={{ duration: 125 }} class="">
       <slot />
     </div>
   {:else}
