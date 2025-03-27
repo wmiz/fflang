@@ -82,7 +82,7 @@
       "totalSpots": 8,
       "price": 197,
       "originalPrice": 297,
-      "link": "https://buy.stripe.com/placeholder1"
+      "link": "https://api.leadconnectorhq.com/widget/booking/NiWojInPUMLWIomXZHqY"
     },
     {
       "startDate": "April 3, 2025",
@@ -149,7 +149,7 @@
       "totalSpots": 8,
       "price": 197,
       "originalPrice": 297,
-      "link": "https://buy.stripe.com/placeholder7"
+      "link": "https://api.leadconnectorhq.com/widget/booking/9UhVN62mdZxJH8OzJVp7"
     },
     {
       "startDate": "April 2, 2025",
