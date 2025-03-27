@@ -23,28 +23,28 @@
   const specialPrice = 197;
 </script>
 
-<div class="px-20">
-  <h1 class="text-6xl font-accent font-bold mb-8 text-center ">
+<div class="md:px-20 px-5">
+  <h1 class="md:text-6xl text-3xl font-accent font-bold mb-8 text-center ">
     My Goal with this Program…
   </h1>
   <p class="text-2xl mb-8">
     My Goal with this program is to give 10X the Value of the Price…Let’s see if
     I achieve it…Here’s what you get…
   </p>
-  <section class="mb-8 shadow-2xl bg-white p-8 rounded-xl">
+  <section class="mb-8 shadow-2xl bg-white md:p-8 p-3 py-5 rounded-xl">
     <ul>
       {#each mainComponents as component, index}
         <li
-          class="text-xl mb-2 rounded-lg flex items-center justify-between {index % 2 === 0
+          class="text-xl mb-2 rounded-lg flex items-center gap-2 justify-between {index % 2 === 0
             ? 'bg-white'
             : 'bg-gray-100'}"
         >
-          <strong class="text-3xl">
+          <strong class="md:text-3xl text-lg ">
             <span class="text-[#EE6352] px-1">✔</span>
             {component.name}:
           </strong>
-          <span class=" text-2xl text-[#1877F2] mr-2 font-bold"
-            >Value = ${component.value}</span
+          <span class=" md:text-2xl text-lg text-[#1877F2] md:mr-2 font-bold text-right"
+            >Value: ${component.value}</span
           >
         </li>
       {/each}

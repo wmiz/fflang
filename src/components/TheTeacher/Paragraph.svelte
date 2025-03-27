@@ -2,6 +2,6 @@
     export let paragraph;
 </script>
 
-<p class="text-2xl text-left mb-8">
+<p class="md:text-2xl text-lg text-left md:mb-8 mb-4">
     {paragraph}
 </p>

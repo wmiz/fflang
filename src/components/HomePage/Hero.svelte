@@ -35,7 +35,7 @@
     
   </div>
   <div class="w-full flex mt-10 justify-between gap-8">
-    <div class="md:max-w-1/2 md:text-2xl text-lg">
+    <div class="md:max-w-1/2 md:text-2xl mb-10 text-lg">
       <p class="md:mb-2 md:px-0 px-4">
         Imagine your child speaking conversational Spanish in 2 months instead of 2 years—no boring drills, no textbooks, just a <span class="font-bold">fun, story-based method</span> that works. Our 8-Week Accelerated Spanish Program, using the Story-Key™ Method, has transformed thousands of kids’ language skills while earning them a <span class="font-bold">World Language Credit Certificate</span> for graduation or college entry. If you’re a homeschooling mom who’s left the broken school system behind, this is the better way you’ve been searching for— <span class="">one your kids will actually love.</span>
   

@@ -4,10 +4,10 @@
     import ClassOption from './ClassOption.svelte';
   </script>
   
-  <div class="py-12 {sectionClass} text-center border-2 border-gray-300 mb-10 p-8 rounded-xl ">
+  <div class="md:py-12 {sectionClass} text-center md:border-2 md:border-gray-300 mb-10 md:p-8 rounded-xl ">
     <div class="container mx-auto px-4">
-      <h2 class="text-5xl font-bold mb-4 underline ">Level {level.level}: {level.title}</h2>
-      <p class="mb-4 text-xl">{level.description}</p>
+      <h2 class="md:text-5xl text-4xl font-bold mb-4 underline ">Level {level.level}: {level.title}</h2>
+      <p class="mb-4 md:text-xl text-lg">{level.description}</p>
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {#each level.classes as classOption}
           <ClassOption {classOption} />

@@ -4,17 +4,17 @@
   let expanded = false;
 </script>
 
-<div class="m-20 my-20">
-  <h2 class="text-6xl font-bold font-accent text-left mb-10">
+<div class="md:m-20 m-5 my-20">
+  <h2 class="md:text-6xl text-3xl font-bold font-accent text-left mb-10">
     The <span class="text-[#EE6352] italic uppercase underline">Inner</span> Transformation
   </h2>
   <div class="relative">
     <img
       src={img}
       alt="Inner Transformation"
-      class="w-full md:w-1/2 md:float-left md:mr-8 md:mb-4 rounded-xl shadow-xl bg-white px-30 py-10"
+      class="w-full md:w-1/2 md:float-left md:mr-8 md:mb-4 rounded-xl shadow-xl bg-white md:px-30 px-10 md:py-10 py-5"
     />
-    <div class="text-xl">
+    <div class="text-xl mt-10 md:mt-0">
       <!-- First 5 paragraphs (always visible) -->
       <p class="mb-2">
         Homeschooling mom, you’re not just a parent—you’re a teacher now, too.

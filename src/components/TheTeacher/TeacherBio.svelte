@@ -4,11 +4,11 @@
   import Paragraph from "./Paragraph.svelte"
 </script>
 
-<div class="mx-auto ">
-  <h2 class="text-5xl font-bold font-accent text-let mb-8">
+<div class="mx-auto">
+  <h2 class="md:text-5xl text-3xl font-bold font-accent text-let md:mb-8 mb-4">
     Hello, I’m Reed Goodey!
   </h2>
-  <p class="mb-8 text-2xl">
+  <p class="mb-8 md:text-2xl text-lg">
     I’m a credentialed teacher with over 30 years of experience, including
     homeschooling my own kids. With degrees in French and Spanish
     Literature, a Master’s in Education, and fluency in Italian, I’ve taught

@@ -13,13 +13,13 @@
     "Three 15-minute mini-classes using multisensory apps kids love—Garbanzo for vocab, Señor Wooly for music and skills, and Llama en Lima for reading and pronunciation. These lock in the week’s high-frequency structures.";
 </script>
 
-<div class="m-10 my-30 mb-10">
-  <h2 class="text-6xl font-bold font-accent text-center mb-12 text-[#050505]" id="how-it-works">
+<div class="md:m-10 m-5 my-30 mb-10">
+  <h2 class="md:text-6xl text-3xl font-bold font-accent md:text-center md:mb-12 text-[#050505]" id="how-it-works">
     How It Works: <span class="underline text-[#1877F2]">3 Classes a Week</span>
   </h2>
   <div class="text-2xl mb-12">
-    <p class="text-2xl bg-gray-50 rounded-2xl border-2 border-gray-300 p-8 text-center">
-      <span class="font-bold text-3xl">Our program is simple but powerful</span> 3 classes a week for 8 weeks, totaling
+    <p class="md:text-2xl text-xl md:bg-gray-50 rounded-2xl md:border-2 md:border-gray-300 md:p-8 mt-4 md:text-center">
+      <span class="font-bold md:text-3xl text-2xl">Our program is simple but powerful</span> 3 classes a week for 8 weeks, totaling
       24 classes. Each class builds on the last, taking your child from absolute
       beginner to conversational fluency.
     </p>
@@ -32,7 +32,7 @@
         looks like…
       </p> -->
   </div>
-  <div class="flex justify-around gap-6">
+  <div class="flex justify-around gap-6 flex-wrap md:flex-nowrap">
     <Card
       title="Class 1"
       imageSrc={live}

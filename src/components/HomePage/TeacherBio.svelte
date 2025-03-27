@@ -2,7 +2,7 @@
   import reed from "$lib/img/reed.jpeg";
 </script>
 
-<div class="m-20">
+<div class="md:m-20 m-5">
   <h2 class="text-6xl font-bold font-accent text-center mb-10">
     My Short Bio
   </h2>
@@ -14,7 +14,7 @@
       alt="Reed's Journey"
       class="w-full md:w-1/3 md:float-left md:mr-8 md:mb-4 rounded-lg shadow-lg"
     />
-    <div class="text-xl">
+    <div class="text-xl mt-10 md:mt-0">
       <!-- First 3 paragraphs (always visible) -->
       <p class="mb-2">
         Hi, I’m Reed! I know exactly what it feels like to be a homeschooling mom because I homeschooled my own kids…I know how frustrating it can be to find an engaging class…a class kids won’t resist…but one that they actually love! So I developed The Story-Key™ Method and the 8-Week Fast & Fun Accelerated Language Program. I built it for moms, just like you, who pulled their kids out of the broken school system and who are looking for a Better Way.

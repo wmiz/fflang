@@ -9,12 +9,12 @@
 <div class="flex justify-center items-center md:my-16 mt-8 md:px-10 px-4">
   <div class="flex justify-center items-center flex-col md:gap-12 gap-8">
     <h2 class="md:text-6xl text-3xl text-center font-accent font-bold">
-      <span class="text-[#EE6352]">↓</span> Click to Hear What They’re Saying
+      <span class="text-[#EE6352] hidden md:block">↓</span> Click to Hear What They’re Saying
       <span class="text-[#EE6352]">↓</span>
     </h2>
     <video
       on:click={toggleMute}
-      class="w-full md:w-2/3 cursor-pointer shadow-xl"
+      class="w-full md:w-2/3 cursor-pointer shadow-xl mb-10"
       autoplay
       muted
       loop
@@ -23,7 +23,7 @@
   </div>
 </div>
 <div
-  class="md:text-2xl text-lg md:mb-20 md:mx-10 md:shadow-2xl md:p-10 p-4 rounded-xl bg-white"
+  class="md:text-2xl text-lg md:mb-20 md:mx-10 md:shadow-2xl md:p-10 p-4 rounded-xl md:bg-white"
 >
   <h2
     class="md:text-6xl text-3xl font-accent font-bold md:text-center md:mb-12 mb-4"
