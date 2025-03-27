@@ -56,17 +56,17 @@
 </div>
 <div class="flex font-bold">
   <div
-    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl md:py-4 py-2 font-accent flex items-center justify-center"
+    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl text-sm md:py-4 py-2 font-accent flex items-center justify-center"
   >
     <h2 class="text-center">More Enjoyable Learning</h2>
   </div>
   <div
-    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl md:py-4 py-2 font-accent  flex items-center justify-center"
+    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl text-sm md:py-4 py-2 font-accent  flex items-center justify-center"
   >
     <h2 class="">Easier Learning</h2>
   </div>
   <div
-    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl md:py-4 py-2 font-accent  flex items-center justify-center"
+    class="w-1/3 bg-[#EE6352] text-white text-center md:text-2xl text-sm md:py-4 py-2 font-accent  flex items-center justify-center"
   >
     <h2 class="text-center">Faster Learning</h2>
   </div>
