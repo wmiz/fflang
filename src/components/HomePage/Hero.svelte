@@ -22,10 +22,12 @@
       <div class="flex gap-4 mt-6 w-full justify-center">
         <!-- <button class="btn btn-accent btn-xl">Enroll Now</button> -->
 
+        <a href="/book">
         <button
-          class="btn bg-[#EE6352] text-white border-none text-2xl p-6 rounded-full min-w-[240px] shadow-xl"
+          class="btn bg-[#EE6352] text-white border-none text-2xl p-6 rounded-full min-w-[240px] shadow-xl hover:scale-102 transition-transform duration-50 ease-in-out"
           >Book Now</button
         >
+      </a>
       </div>
     </div>
 

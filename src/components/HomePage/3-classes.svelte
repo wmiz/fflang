@@ -14,11 +14,11 @@
 </script>
 
 <div class="m-10 my-30 mb-10">
-  <h2 class="text-6xl font-bold font-accent text-left mb-4 text-[#1877F2]">
-    How It Works: <span class="underline">3 Classes a Week</span>
+  <h2 class="text-6xl font-bold font-accent text-center mb-12 text-[#050505]" id="how-it-works">
+    How It Works: <span class="underline text-[#1877F2]">3 Classes a Week</span>
   </h2>
   <div class="text-2xl mb-12">
-    <p class="text-2xl">
+    <p class="text-2xl bg-gray-50 rounded-2xl border-2 border-gray-300 p-8 text-center">
       <span class="font-bold text-3xl">Our program is simple but powerful</span> 3 classes a week for 8 weeks, totaling
       24 classes. Each class builds on the last, taking your child from absolute
       beginner to conversational fluency.

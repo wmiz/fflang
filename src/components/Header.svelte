@@ -26,7 +26,7 @@
         tabindex="0"
         class="menu menu-sm dropdown-content font-heading bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
-        <li><a href="/the-class">The Class</a></li>
+        <li><a href="#how-it-works">The Class</a></li>
         <li><a href="/the-teacher">The Teacher</a></li>
         <li><a href="/questions">Questions</a></li>
       </ul>
@@ -37,13 +37,13 @@
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-xl font-accent text-[#000000] menu-horizontal">
-      <HeaderItem title={'The Class'} link={'/the-class'}/>
+      <HeaderItem title={'The Class'} link={'/#how-it-works'}/>
       <HeaderItem title={'The Teacher'} link={'/the-teacher'} />
       <HeaderItem title={'Testimonials'} link={'/testimonials'} />
     </ul>
   </div>
   <div class="navbar-end">
     <a class="btn bg-yellow-500 text-white mr-2 text-2xl p-6 font-accent rounded-full min-w-[240px] hidden">Student Login</a>
-    <a class="btn bg-[#EE6352] text-white text-2xl md:p-6 font-accent rounded-full md:min-w-[240px] shadow-xl">Book Now</a>
+    <a href="/book" class="btn bg-[#EE6352] text-white text-2xl md:p-6 font-accent rounded-full md:min-w-[240px] shadow-xl hover:scale-102 transition-transform duration-50 ease-in-out">Book Now</a>
   </div>
 </div>

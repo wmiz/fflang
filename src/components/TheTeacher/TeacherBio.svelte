@@ -4,7 +4,7 @@
   import Paragraph from "./Paragraph.svelte"
 </script>
 
-<div class="m-20 mx-auto">
+<div class="mx-auto ">
   <h2 class="text-5xl font-bold font-accent text-let mb-8">
     Hello, I’m Reed Goodey!
   </h2>

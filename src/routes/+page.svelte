@@ -11,7 +11,7 @@
   import ClassStructure from "../components/HomePage/ClassStructure.svelte";
   import TeacherBio from "../components/HomePage/TeacherBio.svelte";
   import Tests from "../components/HomePage/Tests.svelte";
-  // import Testimonials from "../components/HomePage/Testimonials.svelte";
+  import Testimonials from "../components/HomePage/Testimonials.svelte";
   import ThreeSteps from "../components/HomePage/ThreeSteps.svelte";
   import WhatYouGet from "../components/HomePage/WhatYouGet.svelte";
   import CTA from "../components/HomePage/CTA.svelte";
@@ -20,7 +20,7 @@
 </script>
 
 <div
-  class="text-[#050505] m-3 md:mx-10 md:mb-10 md:mt-10 border-solid border-[#EE6352] md:border-[20px] border-[8px]"
+  class="text-[#050505] m-3 md:mx-10 md:mb-10 md:mt-10 border-solid border-[#EE6352] md:border-[20px] border-[8px] rounded-xl shadow-xl"
 >
   <div
     class="border-solid border-[#FAC05E] md:border-[20px] border-[6px]"
@@ -31,9 +31,9 @@
     <Video />
     <!-- <Tests /> -->
     <Classes />
-    <div class="border-b-4">
+
+    <Testimonials />
       <InnerTransformation />
-    </div>
 
     <TeacherBio />
 
