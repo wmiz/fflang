@@ -8,7 +8,7 @@
 
 <div class="flex justify-center items-center md:my-16 mt-8 md:px-10 px-4">
   <div class="flex justify-center items-center flex-col md:gap-12 gap-8">
-    <h2 class="md:text-6xl text-3xl text-center font-accent font-bold">
+    <h2 class="md:text-5xl text-3xl text-center font-accent font-bold">
       <span class="text-[#EE6352] hidden md:block">↓</span> Click to Hear What They’re Saying
       <span class="text-[#EE6352]">↓</span>
     </h2>
