@@ -14,7 +14,7 @@
       alt="Inner Transformation"
       class="w-full md:w-1/2 md:float-left md:mr-8 md:mb-4 rounded-xl shadow-xl bg-white md:px-30 px-10 md:py-10 py-5"
     />
-    <div class="text-xl mt-10 md:mt-0">
+    <div class="md:text-xl mt-10 md:mt-0">
       <!-- First 5 paragraphs (always visible) -->
       <p class="mb-2">
         Homeschooling mom, you’re not just a parent—you’re a teacher now, too.
