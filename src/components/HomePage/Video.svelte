@@ -1,42 +1,30 @@
-<div class="flex justify-center items-center my-16">
-  <div class="flex justify-center items-center flex-col gap-12">
-    <h2 class="text-6xl font-accent font-bold">
-      Watch this Short 3 Minute Video NOW!
+<div class="flex justify-center items-center md:my-16 mt-8 md:px-10 px-4">
+  <div class="flex justify-center items-center flex-col md:gap-12 gap-8">
+    <h2 class="md:text-6xl text-3xl text-center font-accent font-bold text-[#1877F2]">
+      Click to hear what They’re Saying
     </h2>
-    <iframe
-      width="720"
-      height="405"
-      src="https://www.youtube.com/watch?v=9xwazD5SyVg"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <video
+      class="w-full md:w-2/3"
+      controls
+      autoplay
+      muted
+      loop
+    ></video>
   </div>
 </div>
-<div class="text-2xl mb-20 mx-20 shadow-2xl p-10 rounded-xl bg-gradient-to-br from-white to-gray-100">
-  <h2 class="text-5xl font-accent font-bold text-center mb-12">
-    HOW is this Possible?
+<div class="md:text-2xl text-lg md:mb-20 md:mx-10 md:shadow-2xl md:p-10 p-4 rounded-xl bg-white">
+  <h2 class="md:text-6xl text-3xl font-accent font-bold md:text-center md:mb-12 mb-4 text-[#1877F2]">
+    Why Stories Beat Drills <span class="underline">Every Time</span>
   </h2>
-  <p class="mb-12">
-    The Fast & Fun 8-Week Accelerated Spanish Program gets students
-    communicating IN Spanish…IN full sentences right from the start. It trains
-    students to be in <span class="underline"
-      >THE NATURAL FLOW OF THE CONVERSATION</span
-    > rather than getting stuck in their head thinking about words & grammar while
-    the conversation leaves them behind.
+  <p class="md:mb-12 mb-6">
+    Virtually every language program out there—whether it’s Duolingo, Rosetta Stone, classroom curricula, or even a well-meaning native speaker at your co-op—relies on drills. They promise fluency through endless word lists and grammar exercises, but it takes 600 hours and 2-3 years to reach even a basic level of Spanish fluency…and worse, <span class="">kids hate it.</span> Their boredom turns to frustration, then resistance, and learning grinds to a halt.
+
   </p>
-  <p class="mb-12">
-    The first surprise is the whole class is literally IN SPANISH…meaning, we
-    don’t speak any English and the next Surprise is…there is <span
-      class="underline">ZERO STRESS</span
-    >. There is Zero Stress because we are too busy
-    <span class="underline">PLAYING</span>
-    and <span class="underline">LAUGHING</span> and enjoying the childlike
-    <span class="underline">WONDER</span>
-    and <span class="underline">CURIOSITY</span> of exploring what’s possible.
+  <p class="">
+    <span class="md:text-3xl text-2xl font-bold">This 8-week program (3 classes a week, 24 total) flips the script.</span> From the very first class, we’re 100% in Spanish—not just words, but full conversations. We use stories instead of drills because stories make learning a joy, not a chore. Over 30 years as a language teacher and homeschooling mom myself, I’ve seen how this approach gets kids speaking fluently in just 20 hours. It’s designed for families like yours—those seeking a fast, effective, and engaging alternative to the old, broken way.
+
   </p>
-  <p class="mb-12">
+  <!-- <p class="mb-12">
     This program is for Homeschooling Moms of pre-teens & teens who have pulled
     their kids out of the Broken School System and are <span
       class="font-bold underline">looking for a Better Way.</span
@@ -47,5 +35,5 @@
     endless lists of words and phrases enables the student to memorize the
     language. We use <span class="underline font-bold">Stories</span> instead of Drills and we created a Story
     (Metaphor): "<span class="underline font-bold">The 3 Doors to a Better Way</span>” to explain WHY.
-  </p>
+  </p> -->
 </div>

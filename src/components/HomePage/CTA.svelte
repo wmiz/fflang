@@ -97,7 +97,7 @@
           <li class="text-xl mb-2">
             <strong class="text-3xl">{component.name}:</strong>
             {component.description}
-            <em class="font-bold text-[#e4492d]">Value = ${component.value}</em>
+            <em class="font-bold text-[#EE6352]">Value = ${component.value}</em>
           </li>
         {/each}
       </ul>
@@ -109,7 +109,7 @@
         {#each bonuses as bonus}
           <li class="text-xl mb-2">
             <strong class="text-3xl">{bonus.name}</strong>: {bonus.description}
-            <em class="font-bold text-[#e4492d]">Value = ${bonus.value}</em>
+            <em class="font-bold text-[#EE6352]">Value = ${bonus.value}</em>
           </li>
         {/each}
       </ul>
@@ -146,7 +146,7 @@
 
     <section class="text-4xl text-center font-accent">
       <p class="mb-8">
-        Total Value = <span class="text-[#e4492d]"
+        Total Value = <span class="text-[#EE6352]"
           >${totalValue.toFixed(2)}</span
         > (Not including the Inner Transformation because it’s priceless)
       </p>
@@ -159,7 +159,7 @@
       </p>
       <div class="text-center font-body py-12">
         <button
-          class="btn bg-[#e4492d] rounded-full bg-[#000000] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline"
+          class="btn bg-[#EE6352] rounded-full bg-[#000000] text-white text-4xl p-10 w-1/2 uppercase shadow-lg hover:underline"
           >Book Now</button
         >
       </div>

@@ -41,7 +41,7 @@
             To check class availability or to learn more about all of my degrees and formal qualifications...
           </p>
           <div class="text-right">
-          <a class="text-xl bg-[#e4492d] text-center text-white p-2 px-4 uppercase clear-both hover:underline cursor-pointer">Read More...</a>
+          <a class="text-xl bg-[#EE6352] text-center text-white p-2 px-4 uppercase clear-both hover:underline cursor-pointer">Read More...</a>
         </div>
     </div>
   </div>

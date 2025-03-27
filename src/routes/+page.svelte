@@ -19,28 +19,24 @@
   import Screen from "../components/HomePage/Screen.svelte";
 </script>
 
-<div style="max-width:1600px; margin: 0 auto;">
+<div
+  class="text-[#050505] m-3 md:mx-10 md:mb-10 md:mt-10 border-solid border-[#EE6352] md:border-[20px] border-[8px]"
+>
   <div
-    class="text-[#000000] mx-10 mb-10"
-    style="border-right: solid; border-color:#e4492d;border-right-width: 20px;border-left: solid; border-color:#e4492d;border-left-width: 20px; border-top: solid; border-color:#e4492d;border-top-width: 20px;border-bottom: solid; border-color:#e4492d;border-bottom-width: 20px;"
+    class="border-solid border-[#FAC05E] md:border-[20px] border-[6px]"
   >
-    <div
-    class=""
-      style="border-right: solid; border-color:#efb100;border-right-width: 20px;border-left: solid; border-color:#efb100;border-left-width: 20px; border-top: solid; border-color:#efb100;border-top-width: 20px;border-bottom: solid; border-color:#efb100;border-bottom-width: 20px;"
-    >
-      <div>
-        <Hero />
-      </div>
-      <Video />
-      <!-- <Tests /> -->
-      <Classes />
-      <div class="border-b-4">
-        <InnerTransformation />
-      </div>
-
-      <TeacherBio />
-
-      <CTA />
+    <div>
+      <Hero />
     </div>
+    <Video />
+    <!-- <Tests /> -->
+    <Classes />
+    <div class="border-b-4">
+      <InnerTransformation />
+    </div>
+
+    <TeacherBio />
+
+    <CTA />
   </div>
 </div>

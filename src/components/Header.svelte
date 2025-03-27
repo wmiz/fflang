@@ -1,8 +1,9 @@
 <script>
   import logo from "$lib/img/LOGO.png";
+  import HeaderItem from "./HeaderItem.svelte";``
 </script>
 
-<div class="navbar md:px-8 py-3">
+<div class="navbar md:px-8 py-3 shadow-lg bg-white">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -26,8 +27,8 @@
         class="menu menu-sm dropdown-content font-heading bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
       >
         <li><a href="/the-class">The Class</a></li>
-        <li><a href="the-teacher">The Teacher</a></li>
-        <li><a href="questions">Questions</a></li>
+        <li><a href="/the-teacher">The Teacher</a></li>
+        <li><a href="/questions">Questions</a></li>
       </ul>
     </div>
     <a href="/" class="cursor-pointer">
@@ -35,14 +36,14 @@
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-xl font-accent text-[#000000] menu-horizontal px-1">
-      <li><a href="the-class" class="text-2xl mt-1">The Class</a></li>
-      <li><a href="the-teacher" class="text-2xl mt-1">The Teacher</a></li>
-      <li><a href="the-teacher" class="text-2xl mt-1">Testimonials</a></li>
+    <ul class="menu menu-xl font-accent text-[#000000] menu-horizontal">
+      <HeaderItem title={'The Class'} link={'/the-class'}/>
+      <HeaderItem title={'The Teacher'} link={'/the-teacher'} />
+      <HeaderItem title={'Testimonials'} link={'/testimonials'} />
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn bg-yellow-500 text-white mr-2 text-2xl p-6 font-accent rounded-full min-w-[240px]">Student Login</a>
-    <a class="btn bg-[#e4492d] text-white text-2xl p-6 font-accent rounded-full min-w-[240px]">Book Now</a>
+    <a class="btn bg-yellow-500 text-white mr-2 text-2xl p-6 font-accent rounded-full min-w-[240px] hidden">Student Login</a>
+    <a class="btn bg-[#EE6352] text-white text-2xl md:p-6 font-accent rounded-full md:min-w-[240px] shadow-xl">Book Now</a>
   </div>
 </div>

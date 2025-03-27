@@ -5,7 +5,7 @@
 
 <div class="m-20">
   <h2 class="text-6xl font-bold font-accent text-left mb-10">
-    The <span class="text-[#e4492d] italic uppercase underline">Inner</span> Transformation
+    The <span class="text-[#EE6352] italic uppercase underline">Inner</span> Transformation
   </h2>
   <div class="relative">
     <img
@@ -176,7 +176,7 @@
     </div>
     <div class="text-right mt-4">
     <button
-      class="text-xl bg-[#e4492d] text-center text-white p-2 px-4 uppercase clear-both hover:underline"
+      class="text-xl bg-[#EE6352] text-center text-white p-2 px-4 uppercase clear-both hover:underline"
       on:click={() => (expanded = !expanded)}
     >
       {expanded ? "Read less..." : "Read more..."}
