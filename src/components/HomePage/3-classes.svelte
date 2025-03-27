@@ -13,7 +13,7 @@
     "Three 15-minute mini-classes using multisensory apps kids love—Garbanzo for vocab, Señor Wooly for music and skills, and Llama en Lima for reading and pronunciation. These lock in the week’s high-frequency structures.";
 </script>
 
-<div class="md:m-10 m-5 my-30 mb-10">
+<div class="md:m-10 m-5 md:my-30 mb-10">
   <h2 class="md:text-6xl text-3xl font-bold font-accent md:text-center md:mb-12 text-[#050505]" id="how-it-works">
     How It Works: <span class="underline text-[#1877F2]">3 Classes a Week</span>
   </h2>
