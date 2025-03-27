@@ -3,7 +3,7 @@
 </script>
 
 <div class="md:m-20 m-5">
-  <h2 class="text-6xl font-bold font-accent text-center mb-10">
+  <h2 class="md:text-6xl text-4xl font-bold font-accent md:text-center md:mb-10 mb-8">
     My Short Bio
   </h2>
   <div class="relative">

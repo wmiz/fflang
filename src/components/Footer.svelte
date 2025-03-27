@@ -2,7 +2,7 @@
   import logo from "$lib/img/LOGO.png";
 </script>
 
-<footer class="footer sm:footer-horizontal bg-base-200 text-base-content p-20">
+<footer class="footer sm:footer-horizontal bg-gray-200 md:p-20 p-5">
   <aside class="md:w-1/3">
     <a href="/" class="cursor-pointer">
       <img src={logo} alt="logo" class="h-12 md:h-18" />
