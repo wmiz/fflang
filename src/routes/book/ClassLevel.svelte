@@ -17,7 +17,7 @@
 </script>
 
 <div
-  class="md:py-12 {sectionClass} text-cente md:p-8 rounded-xl lvl-bg"
+  class="md:py-12 {sectionClass} md:p-8 lvl-bg"
   style="background-color: {color}"
 >
   <div class="container mx-auto px-4">
