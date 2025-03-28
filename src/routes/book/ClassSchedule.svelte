@@ -199,6 +199,7 @@
       "totalSpots": 8,
       "price": 197,
       "originalPrice": 297,
+      
       "link": "https://buy.stripe.com/placeholder12"
     }
   ]
@@ -206,7 +207,7 @@
     ];
   </script>
   
-  <section class="py-10">
+  <section class="">
     {#each classes as level}
       <ClassLevel level={level} sectionClass={`level${level.level}-section`} />
     {/each}

@@ -1,19 +1,40 @@
 <script>
-    export let level;
-    export let sectionClass;
-    import ClassOption from './ClassOption.svelte';
-  </script>
-  
-  <div class="md:py-12 {sectionClass} text-center md:border-2 md:border-gray-300 mb-10 md:p-8 rounded-xl ">
-    <div class="container mx-auto px-4">
-      <h2 class="md:text-5xl text-4xl font-bold mb-4 underline ">Level {level.level}: {level.title}</h2>
-      <p class="mb-4 md:text-xl text-lg">{level.description}</p>
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {#each level.classes as classOption}
-          <ClassOption {classOption} />
-        {/each}
-      </div>
-      <p class="mt-12 text-xl font-bold">Please email me for multi-student discounts: <a class="underline text-[#1877F2]" href="mailto:reed@fastandfunlanguage.com">reed@fastandfunlanguage.com</a></p>
+  export let level;
+  export let sectionClass;
+  import ClassOption from "./ClassOption.svelte";
 
+  let color = "#edf7ef";
+  let textColor = 'rgb(27, 59, 92)';
+  if (level.level == 1) {
+    color = "rgb(238, 242, 247)";
+  } else if (level.level == 2) {
+    color = "#edf7ef";
+    textColor = 'rgb(42, 141, 78)';
+  } else if (level.level == 3) {
+    color = "#f5f0fb";
+    textColor = 'rgb(102, 51, 153)';
+  }
+</script>
+
+<div
+  class="md:py-12 {sectionClass} text-cente md:p-8 rounded-xl lvl-bg"
+  style="background-color: {color}"
+>
+  <div class="container mx-auto px-4">
+    <h2 class="md:text-4xl text-3xl font-bold mb-4 underline text-left" style="color: {textColor}">
+      Level {level.level}: {level.title}
+    </h2>
+    <p class="mb-4 md:text-lg text-left">{level.description}</p>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {#each level.classes as classOption}
+        <ClassOption {classOption} btnColor={textColor} />
+      {/each}
     </div>
+    <p class="mt-12 text-xl font-bold">
+      Please email me for multi-student discounts: <a
+        class="underline text-[#1877F2]"
+        href="mailto:reed@fastandfunlanguage.com">reed@fastandfunlanguage.com</a
+      >
+    </p>
   </div>
+</div>
