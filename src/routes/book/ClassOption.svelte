@@ -7,7 +7,7 @@
   <div class="relative bg-white rounded-xl shadow-lgs md:p-8 p-6 flex flex-col justify-between text-center hover:scale-102 transition-transform duration-50 ease-in-out">
     <h3 class="text-2xl font-semibold text-brand-secondary mb-3">Class Starts: {classOption.startDate}</h3>
     <p class="text-xl"><strong>Day:</strong> {classOption.day}</p>
-    <p class="text-xl"><strong>Time (CST):</strong> {classOption.timeCST}</p>
+    <p class="text-xl"><strong>Time (MST):</strong> {classOption.timeCST}</p>
     <p class="text-[#1877F2] text-xl font-bold">{classOption.spots} spots available ({classOption.spots}/{classOption.totalSpots})</p>
     <div class="mt-4">
       <p class="text-xl font-semibold">Price: <span class="line-through text-gray-500">${classOption.originalPrice}</span> <span>${classOption.price}</span></p>
