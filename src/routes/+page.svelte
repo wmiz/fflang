@@ -17,6 +17,7 @@
   import CTA from "../components/HomePage/CTA.svelte";
   import InnerTransformation from "../components/HomePage/InnerTransformation.svelte";
   import Screen from "../components/HomePage/Screen.svelte";
+  import TestSlider from "../components/HomePage/TestSlider.svelte";
 </script>
 
 <div
@@ -30,6 +31,7 @@
     </div>
     <Video />
     <!-- <Tests /> -->
+     <TestSlider />
     <Classes />
 
     <Testimonials />
