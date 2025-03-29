@@ -27,7 +27,7 @@
     <p class="mb-4 md:text-lg text-left">{level.description}</p>
     <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {#each level.classes as classOption}
-        <ClassOption {classOption} btnColor={textColor} />
+        <ClassOption {classOption} date={classOption.startDate} btnColor={textColor} level={level} />
       {/each}
     </div>
     <p class="mt-12 text-xl font-bold">

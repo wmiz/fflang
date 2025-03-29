@@ -1,10 +1,12 @@
 <script>
   export let classOption;
   export let btnColor;
+  export let date;
+  export let level;
   $: isFull = classOption.spots === 0;
 </script>
 
-<a href={classOption.link} class={isFull ? 'disabled' : ''}>
+<a href="mailto:reed@fastandfunlanguage.com?subject={date} | {classOption.timeCST} | {level.title} Booking&body=Hello,%0AI would like to sign up my son/daughter for {level.title} on {date}."  class={isFull ? 'disabled' : ''}>
   <div class="relative bg-white rounded-xl shadow-md border-2 text-left md:p-8 p-6 flex flex-col justify-between text-center hover:scale-102 transition-transform duration-50 ease-in-out">
     <h3 class="text-xl font-semibold text-brand-secondary mb-3">Class Starts: {classOption.startDate}</h3>
     <p class="text-lg"><strong>Day:</strong> {classOption.day}</p>
@@ -19,7 +21,7 @@
       <p class="text-xl font-semibold">Price: <span class="line-through text-gray-500">${classOption.originalPrice}</span> <span class="text-[#1877F2]">${classOption.price}</span></p>
       <p>Save $100 - Limited Time Offer</p>
     </div>
-    <button disabled={isFull} class="mt-4 shadow-lg text-xl text-white rounded-md hover:bg-brand-secondary font-bold py-6 px-8 m-auto btn w-full" style="background:{btnColor}">Enroll Now</button>
+    <button disabled={isFull} class="mt-4 shadow-lg text-xl text-white rounded-md hover:bg-brand-secondary font-bold py-6 px-8 m-auto btn w-full" style="background:{btnColor}">Email Me</button>
   </div>
 </a>
 
