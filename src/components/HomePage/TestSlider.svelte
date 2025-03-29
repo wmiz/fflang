@@ -37,9 +37,9 @@
 </script>
 
 <div class="marquee">
-  <div class="marquee-content py-5">
+  <div class="marquee-content md:py-5">
     {#each allTestimonials as testimonial, i (i)}
-      <div class="testimonial-wrapper">
+      <div class="testimonial-wrapper md:w-[40vw] w-[80vw]">
         <Testimonial text={testimonial.text} author={testimonial.author} />
       </div>
     {/each}
@@ -63,9 +63,15 @@
     animation: scroll 60s linear infinite;
   }
 
+  /* Mobile */
+  @media (max-width: 640px) {
+    .marquee-content {
+      animation: scroll 120s linear infinite;
+    }
+  }
+
   /* Set a fixed width for each slide and adjust spacing */
   .testimonial-wrapper {
-    width: 40vw; /* Adjust width as desired */
     margin-right: 2rem;
   }
 
